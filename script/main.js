@@ -62,9 +62,9 @@ document.querySelector('.yes-btn').addEventListener('click', function() {
 
     finalQuestion.innerHTML = 
         "<h2>🎉 I know you're my baby boo 💝</h2>" +
-        "<p>You've made my heart explode with joy!</p>" +
+        "<p>You've made my heart explode with joy let's go!</p>" +
         "<div style='margin-top: 2rem; font-size: 3rem'>💞🌟</div>" + 
-        "<button id='nextPageBtn'>Go to Next Page ❤️</button>";
+        "<button id='nextPageBtn' class='loveBtn'>Go to Next Page ❤️</button>";
 
 document.getElementById("nextPageBtn").addEventListener("click", function() {
     window.location.href = "1.html";
